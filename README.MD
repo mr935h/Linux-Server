@@ -1,8 +1,6 @@
 # Description
     This project was create from an instance on Amazon Lightsail web
-
     server platform to configure a Linux server and display my catalog
-
     application.
 
 # Project information
@@ -20,5 +18,4 @@
 
 # 3rd Party
     I reference iliketomatoes linix_server_configuration GitHub repo for
-
     helpful information on this project.
