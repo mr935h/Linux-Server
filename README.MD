@@ -7,12 +7,12 @@ Project information
     Hosted web application URL: https://lightsail.aws.amazon.com/ls/webapp/us-east-2/instances/Linux-Server-Project-5/connect
 
 Installed Software and configuration changes
-    apache2
-    postgresql
-    python2.7
-    python3
-    git
-    configured server for UTC timezone
+    * apache2
+    * postgresql
+    * python2.7
+    * python3
+    * git
+    * configured server for UTC timezone
 
 3rd Party
     I reference iliketomatoes linix_server_configuration GitHub repo for helpful information on this project.
