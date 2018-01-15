@@ -237,6 +237,12 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
 
 1. Restart Apache: `$ sudo service apache2 restart`
 
+## Error Detecting in Linux
+
+1. Locate the log directory: `$ cd /var/log`
+2. View these files to locate any errors
+3. Within */var/log* some directories are not accessible with *sudo cd* command. Use *sudo ls* to view and then *sudo cat* to see those log files.
+
 ## Changes to my Existing Catalog app
 
 1. Google OAuth Authorized JavaScript origins needs my server ip.
@@ -263,5 +269,13 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
 
         ```oauth_flow = flow_from_clientsecrets(APP_ROOT + '/client_secrets.json', scope='')```
 
-## 3rd Party
-I reference iliketomatoes linix_server_configuration GitHub repo for helpful information on this project.
+## 3rd Party Sources
+  * Udacity forums: https://discussions.udacity.com/t/project-linux-server-configuration-on-lightsail/501966/9
+  * iliketomatoes linix_server_configuration GitHub repo
+  * Digital Ocean:
+    1. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+    2. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
+  * ehowstuff: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-in-ubuntu/
+  * profitbricks: https://devops.profitbricks.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
+  * github/markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * nixCraft: https://www.cyberciti.biz/faq/linux-log-files-location-and-how-do-i-view-logs-files/
