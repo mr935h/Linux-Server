@@ -239,7 +239,8 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
 
 ## Changes to my Existing Catalog app
 
-1. Google OAuth needed to allow the server ip to work
+1. Google OAuth Authorized JavaScript origins needs my server ip.
+    * http://18.217.132.149
 2. Changed Flask application python file from *project.py* to *\_\_init\_\_.py*
 3. Set up new PostgreSQL database with SQLAlchemy by updating and running *setup.py* by following the below steps:
     1. Add *import psycopg2*
