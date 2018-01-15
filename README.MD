@@ -250,15 +250,15 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
 
     ```import os
     # __file__ refers to the file settings.py
-    APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top```
+    APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top
+    ```
 
 5. Updates to *__init__.py*
     1. Connection to database
         ```engine = create_engine('postgresql://catalog:[password]@localhost/catalog')```
     2. OAuth *client_secrets.json* file could not be found added APP_ROOT from settings file
 
-        ```CLIENT_ID = json.loads(
-    open(APP_ROOT + '/client_secrets.json', 'r').read())['web']['client_id']```
+        ```CLIENT_ID = json.loads(open(APP_ROOT + '/client_secrets.json', 'r').read())['web']['client_id']```
 
         ```oauth_flow = flow_from_clientsecrets(APP_ROOT + '/client_secrets.json', scope='')```
 
