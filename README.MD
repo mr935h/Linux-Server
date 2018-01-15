@@ -240,7 +240,7 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
 ## Changes to my Existing Catalog app
 
 1. Google OAuth needed to allow the server ip to work
-2. Changed Flask application python file from *project.py* to *'__init__.py'*
+2. Changed Flask application python file from *project.py* to *\_\_init\_\_.py*
 3. Set up new PostgreSQL database with SQLAlchemy by updating and running *setup.py* by following the below steps:
     1. Add *import psycopg2*
     2. Update *engine* for postgresql
@@ -253,7 +253,7 @@ Source: http://www.ehowstuff.com/how-to-install-and-use-glances-system-monitor-i
     APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top
     ```
 
-5. Updates to *'__init__.py'*
+5. Updates to *\_\_init\_\_.py*
     1. Connection to database
         ```engine = create_engine('postgresql://catalog:[password]@localhost/catalog')```
     2. OAuth *client_secrets.json* file could not be found added APP_ROOT from settings file
