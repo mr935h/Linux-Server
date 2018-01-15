@@ -1,14 +1,14 @@
 # Udacity - Linux Server Configuration Project 5
 
 ## Description
-    This project was create from an instance on Amazon Lightsail web
-    server platform to configure a Linux server and display my catalog
-    application.
+This project was create from an instance on Amazon Lightsail web
+server platform to configure a Linux server and display my catalog
+application.
 
 ## Project information
-    IP address: 18.217.132.149
-    SSH port: 2200
-    Hosted web application URL: https://lightsail.aws.amazon.com/ls/webapp/us-east-2/instances/Linux-Server-Project-5/connect
+IP address: 18.217.132.149
+SSH port: 2200
+Hosted web application URL: https://lightsail.aws.amazon.com/ls/webapp/us-east-2/instances/Linux-Server-Project-5/connect
 
 ## Installed Software and configuration changes
   * apache2
